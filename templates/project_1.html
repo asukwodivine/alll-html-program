@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog preview card</title>
+    <style>
+        body {
+            background-color: #F5D04E;
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            box-sizing: border-box;
+            background-color: #ffffff;
+            padding: 15px;
+            margin: 0;
+            border-radius: 10px;
+            border: 1px solid #000;
+            box-shadow: 7px 9px 0 #000, 0 16px 30px rgba(0, 0, 0, 0.5);
+            text-align: left;
+            width: 300px;
+            max-width: 100%;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            display: block;
+        
+        }
+
+        h2 {
+            color: #333;
+            text-align: left;
+            animation: alternate;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.5;
+            margin: 0;
+            font-size: small;
+            font-family: 'Outfit', sans-serif;
+        }
+        .learning {
+            color: #181714;
+            font-size: 13.5px;
+            display: inline-block;
+            background-color: #F5D04E;
+            padding: 6px 12px;
+            margin: 19px 0 18px;
+            border-radius: 7px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .h3 {
+            color: #131211;
+            font-size: 20px;
+            line-height: 1.1;
+            margin: 20px 0 12px;
+            white-space: nowrap;
+        }
+        .h3:active {
+            color: #e67d14;
+            cursor: pointer;
+        }
+        .h4 {
+            color: #2e2c2c;
+            font-size: 12px;
+            margin: 0 0 12px;
+            font-family: 'Outfit', sans-serif;
+        }
+        .author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .card .avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+        .author h4 {
+            margin: 0;
+            color: #131211;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+            <img src="image/illustration-article.svg" alt="Blog article illustration" class="qr-image">
+            <h2 class="learning">Learning</h2>
+            <h4 class="h4">Published 21 Dec 2023</h4>
+        <h3 class="h3">HTML & CSS foundations</h3>
+        <p>These languages are the backbone of every website, defining structure,content and presentation.</p>
+        <div class="author">
+            <img src="image/image-avatar.webp" alt="Greg Hopper" class="avatar">
+            <h4>Greg Hopper</h4>
+        </div>
+    </div>
+</body>
+</html>
